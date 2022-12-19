@@ -70,7 +70,7 @@ function searchF() {
         }
     });
 
-    search.open("GET", "https://songapi.thetuhin.com/search?query=" + songquery);
+    search.open("GET", "https://jiosaavn-2022.vercel.app/search?query=" + songquery);
     search.send();
 }
 
