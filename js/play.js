@@ -49,7 +49,7 @@ xmlhttp.onreadystatechange = function() {
                     document.getElementById("lyrics").innerHTML = ldata.lyrics;
                 }
             });
-            xhr.open("GET", "https://songapi.thetuhin.com/lyrics?id=" + songid);
+            xhr.open("GET", "https://jiosaavn-2022.vercel.app/lyrics?id=" + songid);
             xhr.send();
         } else {
             document.getElementById('lyricsinit').style.visibility = 'hidden';
