@@ -57,7 +57,7 @@ xmlhttp.onreadystatechange = function() {
     };
 };
 //this is the song detail api
-xmlhttp.open("GET", "https://songapi.thetuhin.com/song?id=" + songid, true);
+xmlhttp.open("GET", "https://jiosaavn-2022.vercel.app/song?id=" + songid, true);
 xmlhttp.send();
 
 //when lyricsask tapped lyrics will shown (if lyrics available)
