@@ -35,7 +35,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("qthree").download = songname + ".mp3";
     }
 };
-xmlhttp.open("GET", "https://jiosaavn-2022.vercel.app/song?id=" + id, true);
+xmlhttp.open("GET", "https://semantic-genni-sathishskinsta.koyeb.app/song?id=" + id, true);
 xmlhttp.send();
 
 /*!
